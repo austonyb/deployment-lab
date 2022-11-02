@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+body {
+    background-image: url("https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-844297.jpg&fm=jpg&w=1280&h=853");
+    
+    
+}
+
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    background-color: skyblue;
+    align-items: center;
+    background-color: rgba(135, 207, 235, 0.435);
+    border-radius: 10px;
+    font-family: 'Monoton', cursive;
+    font-size: large;
 }
