@@ -9,5 +9,8 @@ module.exports = {
     },
     script: (req, res) => {
         res.sendFile(path.join(__dirname, "../../script.js"))
-    }
+    },
+    img1: (req, res) => {
+        res.sendFile(path.join(__dirname, "../../assets/salesman.png"))
+    },
 }
